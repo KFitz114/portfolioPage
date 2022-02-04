@@ -1,0 +1,112 @@
+html {
+    height: 100%; width: 100%; padding: 0; Margin: 0;
+}
+body{
+height: 100%; width: 100%; padding: 0; Margin: 0; background-image: linear-gradient(45deg, green, blue);
+}
+h1 {
+    color: black;
+    border: solid black 4px;
+    padding: 70px;
+    background-color: gray;
+}
+h3 {
+    color: black;
+}
+#welcome {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#instructions {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px;
+}
+#button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#guide {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#id {
+    border: black solid  2 px;
+    padding: 5px;
+}
+#response {
+    border: solid black 2px;
+    background-color: gray;;
+    display: flex;
+    padding: 10px;
+    /* flex-direction: column; */
+    /* flex-grow: 1; */
+    /* margin: 5px;
+    width: 50%;
+    height: 5%; */
+    align-content: center;
+    justify-content: center;
+}
+#score {
+    border: solid black 2px;
+    background-color: gray;
+    display: flex;
+    padding: 10px;
+    /* flex-grow: 2;
+    margin: 5px;
+    width: 50%;
+    height: 5%; */
+    align-content: center;
+    justify-content: center;
+}
+#attempts {
+    border: solid black 2px;
+    padding: 10px;
+    background-color: gray;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+#reset {
+    border: black solid 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 8px;
+    
+}
+#resetbutton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+#flex   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.btn    {
+    border-radius: 15%;
+    background-color: green;
+    color: blue;
+    font-size: 22px;
+    box-shadow: 2px 2px 2px 2px;
+    font-weight: 800;
+}
+
+#submit {
+    border-radius: 15%;
+    background-color: green;
+    color: blue;
+    font-size: 22px;
+    box-shadow: 2px 2px 2px 2px;
+    font-weight: 600;
+}

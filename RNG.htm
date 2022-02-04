@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head> <link rel="stylesheet" href="RNG.css">
+        <title>Random Number Game</title>
+    </head>
+    <body>
+        <div id="welcome">
+            <h1> Welcome to the Number Guessing Game!</H1>
+        </div>
+        <div id="instructions">
+            <h3> Guess the randomly generated number (1-100) correctly in as few tries as possible.</h3>
+        </div>
+        <div id="guide">
+            <p> <b>Enter your guess in the box below.</b></p>
+        </div>
+    <div id="button">
+        <input id="guess" type="text" name="guess">
+        <button id="submit">Submit</button>
+    </div>
+<div id="flex">   
+        <div id="response">
+        </div>
+        <div id="score">
+        </div>
+        <div id="attempts">
+        </div>
+        <div id="resetbutton">
+            <button class='btn' onclick="location.reload();">New Game</button>
+        </div>
+    </div>
+    </body>
+    <script src="RNG.js"></script>
+</html>
