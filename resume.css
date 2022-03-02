@@ -1,0 +1,114 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* COLORS and FONTS */
+.resumeBody {
+    background: #fff;
+    flex-direction: column;
+}
+main {
+    background: darkslateblue;
+}
+
+.left-sidebar {
+    background: dodgerblue;
+}
+
+
+@media all and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;    
+    } 
+    .resumeBody {
+        flex-direction: column;
+        flex: 4;
+        order: 2;
+        min-height: 80vh;
+        justify-content: center;
+        text-align: left;
+    }
+    
+    .left-sidebar {
+        flex-direction: column;
+        order: 1;
+        flex: 1;
+        background-color: #1d63a5 .5;
+        flex-wrap: wrap;
+    }
+    .column {
+        flex-direction: column;
+        font-size: 12px;
+        position: fixed;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+br {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.exp {
+    padding: 20px;
+}
+
+/* Navigation bar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: dodgerblue;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

@@ -27,3 +27,13 @@ cardTwo.addEventListener('mouseenter' , function() {
 cardTwo.addEventListener('mouseleave' , function() {
     cardTwo.classList.toggle('is-flipped');
 }); 
+
+//Navigation bar
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
