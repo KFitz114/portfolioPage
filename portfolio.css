@@ -366,3 +366,21 @@ a {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+  .blog {
+      margin-top: 40px;
+      justify-self: center;
+      align-self: center;
+      /* background-color: gray; */
+      padding-left: 300px;
+      padding-right: 300px;
+  }
+
+  .blog-paragraph {
+    text-indent: 30px;
+    font-size: 20px;
+    background-color: grey;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 15%;
+  }
